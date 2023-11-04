@@ -1,0 +1,22 @@
+.ion-padding{
+    margin-top: 50%;
+    height: 100vh;
+ 
+ 
+ }
+ 
+ .ion-margin-top{
+     font-size: large;
+     height: 50px;
+ }
+ 
+ .input-box{
+    
+    background-color: white !important;
+    border-radius: 5px;
+ }
+ 
+ .ion-text-center{
+     
+     margin-top: 40px;
+ }
