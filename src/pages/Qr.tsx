@@ -108,3 +108,46 @@ import {
   }
   
   export default Qr
+
+// import {
+//     IonButton,
+//     IonButtons,
+//     IonContent,
+//     IonHeader,
+//     IonIcon,
+//     IonPage,
+//     IonRow,
+//     IonText,
+//     IonTitle,
+//     IonToolbar,
+//     useIonAlert,
+//   } from "@ionic/react"
+
+// import { Camera, CameraResultType } from '@capacitor/camera';
+// const Qr: React.FC = () => {
+
+
+//   const takePicture = async () => {
+//     const image = await Camera.getPhoto({
+//       quality: 90,
+//       allowEditing: true,
+//       resultType: CameraResultType.Uri
+//     });
+
+  
+//   }
+
+//   return (
+//     <IonPage>
+     
+//       <IonContent>    
+//       <IonButton className="center-button" onClick={takePicture}>
+//         Open Camera
+//       </IonButton>   
+//       </IonContent>
+//     </IonPage>
+//   )
+
+
+// }
+// export default Qr
