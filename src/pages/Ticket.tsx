@@ -19,7 +19,7 @@ const location : any = useLocation();
 const username  = location.state.name;
 
 const [Seach, setSeach] =useState('');
-const [data, setData] = useState({});
+const [data, setData] = useState({title:'',userId:0,completed:false});
   
 
   const [showLoading, hideLoading] = useIonLoading();
